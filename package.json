@@ -1,0 +1,30 @@
+{ "name": "npm-package-inventory-scanner-2509-pmb",
+  "version": "0.0.0",
+  "description": "Scan and report all the npm package names and versions in all `node_modules` directories in parts of your local filesystem, to help find known-bad versions.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/npm-package-inventory-scanner-2509-pmb/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/npm-package-inventory-scanner-2509-pmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/npm-package-inventory-scanner-2509-pmb/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+  "main": "package.json",
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "bash": ">=5.0.0" }
+}

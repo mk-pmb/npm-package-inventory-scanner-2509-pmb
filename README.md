@@ -36,6 +36,12 @@ by its absolute path, or symlink, or similar method.
     already scanned them, you can specify CLI option `--no-global`.
 
 
+### Check the inventory list for known bad versions
+
+In `extra/pkglists/known-bad/` you can find downloaders
+for some lists of known bad npm package versions,
+that you can then compare with your inventory list.
+
 
 
 Known issues

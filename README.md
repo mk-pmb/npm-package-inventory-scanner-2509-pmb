@@ -32,6 +32,8 @@ by its absolute path, or symlink, or similar method.
 * In addition to the current working directory (i.e. your project),
   the scanner also tries to find other `node_modules` directories
   that node.js could search, but this feature isn't reliable yet.
+  * If you want to skip global `node_modules` directories because you've
+    already scanned them, you can specify CLI option `--no-global`.
 
 
 

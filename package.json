@@ -1,5 +1,5 @@
 { "name": "npm-package-inventory-scanner-2509-pmb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scan and report all the npm package names and versions in all `node_modules` directories in parts of your local filesystem, to help find known-bad versions.",
   "keywords": [],
 

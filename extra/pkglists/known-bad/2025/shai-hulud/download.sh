@@ -15,7 +15,7 @@ function download_cli_init () {
     SITE="${SITE#*://}"
     SITE="${SITE#www.}"
     SITE="${SITE%%.*}"
-    cache-file-wget tmp."$SITE".html "$URL"
+    [ -s tmp."$SITE".html ] || wget -O tmp."$SITE".html -- "$URL"
     case "$SITE" in
       getsafety ) "$SITE"_like_site "$URL";;
       * ) aikido_like_site "$URL";;

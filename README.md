@@ -21,6 +21,14 @@ versions.
 
 
 
+Installation
+------------
+
+* For the JSON handing, you need to install the `jq` command.
+  On Ubuntu, it should be available as Debian packae `jq`.
+
+
+
 Usage
 -----
 
